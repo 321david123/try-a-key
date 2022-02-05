@@ -15,8 +15,10 @@ document.addEventListener('DOMContentLoaded', () => {
 function funcion(){
     const key = document.getElementById("key").value;
     if (key === "qwertymn"){
+        document.getElementById("p").className += "true";
+        document.getElementById("p").innerText = ("Bien!");
         window.location.href = "https://github.com/321david123";
     } else {
-        document.getElementById("parrafo").innerText = ("Esa llave no existe!");
+        document.getElementById("p").innerText = ("Esa llave no existe!");
     }
 };

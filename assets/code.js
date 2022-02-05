@@ -14,11 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
 //este codigo si es 100% mio
 function funcion(){
     const key = document.getElementById("key").value;
-    console.log(key);
     if (key === "qwertymn"){
-        console.log("correct sintaxis");
         window.location.href = "https://github.com/321david123";
     } else {
-        console.log("incorrect sintaxis");
+        document.getElementById("parrafo").innerText = ("Esa llave no existe!");
     }
 };

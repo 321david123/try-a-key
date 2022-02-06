@@ -34,3 +34,4 @@ function funcion(){
             document.getElementById("p").innerText = ("Esa llave no existe!");
     }
 };
+const a = 2.4;

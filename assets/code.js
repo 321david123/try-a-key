@@ -32,6 +32,9 @@ function funcion(){
         break;
         default:
             document.getElementById("p").innerText = ("Esa llave no existe!");
+        case 'a':
+            document.getElementById("p").className += "true";
+            document.getElementById("p").innerText = ("Bien!");
+            window.location.href = "./assets/prueba.html";      
     }
 };
-const a = 2.4;
